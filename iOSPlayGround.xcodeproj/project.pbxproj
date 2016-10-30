@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042D14931DC66B9B00D624D4 /* PGAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D14921DC66B9B00D624D4 /* PGAccountManager.m */; };
+		042D14961DC67A7F00D624D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042D14951DC67A7F00D624D4 /* GoogleService-Info.plist */; };
 		0471A84B1DB21FA000B2A064 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471A84A1DB21FA000B2A064 /* main.m */; };
 		0471A84E1DB21FA000B2A064 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471A84D1DB21FA000B2A064 /* AppDelegate.m */; };
 		0471A8511DB21FA000B2A064 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471A8501DB21FA000B2A064 /* ViewController.m */; };
@@ -16,6 +18,9 @@
 		0471A85C1DB21FA000B2A064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0471A85A1DB21FA000B2A064 /* LaunchScreen.storyboard */; };
 		0471A8671DB21FA000B2A064 /* iOSPlayGroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471A8661DB21FA000B2A064 /* iOSPlayGroundTests.m */; };
 		0471A8721DB21FA000B2A064 /* iOSPlayGroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471A8711DB21FA000B2A064 /* iOSPlayGroundUITests.m */; };
+		472B7DF570E37B4138417F32 /* Pods_iOSPlayGroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EFA7A0CCDB13C33A21EA19 /* Pods_iOSPlayGroundTests.framework */; };
+		A008065771E6BCE03801D40B /* Pods_iOSPlayGroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41191907CE6260469363892 /* Pods_iOSPlayGroundUITests.framework */; };
+		D0F746E5AF0C53F740D52387 /* Pods_iOSPlayGround.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09984EFA164DE0BA6CE45FEA /* Pods_iOSPlayGround.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042D14911DC66B9B00D624D4 /* PGAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGAccountManager.h; sourceTree = "<group>"; };
+		042D14921DC66B9B00D624D4 /* PGAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGAccountManager.m; sourceTree = "<group>"; };
+		042D14951DC67A7F00D624D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0471A8461DB21FA000B2A064 /* iOSPlayGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPlayGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0471A84A1DB21FA000B2A064 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0471A84C1DB21FA000B2A064 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +61,15 @@
 		0471A86D1DB21FA000B2A064 /* iOSPlayGroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPlayGroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0471A8711DB21FA000B2A064 /* iOSPlayGroundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSPlayGroundUITests.m; sourceTree = "<group>"; };
 		0471A8731DB21FA000B2A064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09984EFA164DE0BA6CE45FEA /* Pods_iOSPlayGround.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSPlayGround.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1595E755D5270993780C7CDB /* Pods-iOSPlayGroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPlayGroundUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPlayGroundUITests/Pods-iOSPlayGroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25EFA7A0CCDB13C33A21EA19 /* Pods_iOSPlayGroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSPlayGroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9AB2CA96EC77FB27ACD97F /* Pods-iOSPlayGroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPlayGroundTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPlayGroundTests/Pods-iOSPlayGroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		55D5A8E53B8B5006F70092CC /* Pods-iOSPlayGroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPlayGroundTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPlayGroundTests/Pods-iOSPlayGroundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FAA723876E10F0723B75F5B /* Pods-iOSPlayGround.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPlayGround.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPlayGround/Pods-iOSPlayGround.debug.xcconfig"; sourceTree = "<group>"; };
+		D86E3BEA18104C11A117AD8B /* Pods-iOSPlayGroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPlayGroundUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPlayGroundUITests/Pods-iOSPlayGroundUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E41191907CE6260469363892 /* Pods_iOSPlayGroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSPlayGroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9DCC4C3B9881BFCD71C953 /* Pods-iOSPlayGround.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPlayGround.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPlayGround/Pods-iOSPlayGround.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F746E5AF0C53F740D52387 /* Pods_iOSPlayGround.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472B7DF570E37B4138417F32 /* Pods_iOSPlayGroundTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +93,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A008065771E6BCE03801D40B /* Pods_iOSPlayGroundUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042D14901DC66B7300D624D4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				042D14941DC66BA000D624D4 /* Account */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		042D14941DC66BA000D624D4 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				042D14911DC66B9B00D624D4 /* PGAccountManager.h */,
+				042D14921DC66B9B00D624D4 /* PGAccountManager.m */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
 		0471A83D1DB21FA000B2A064 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +124,8 @@
 				0471A8651DB21FA000B2A064 /* iOSPlayGroundTests */,
 				0471A8701DB21FA000B2A064 /* iOSPlayGroundUITests */,
 				0471A8471DB21FA000B2A064 /* Products */,
+				79DA00749277037C502D0E7B /* Pods */,
+				F69A490DF7F30858A356992E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +142,7 @@
 		0471A8481DB21FA000B2A064 /* iOSPlayGround */ = {
 			isa = PBXGroup;
 			children = (
+				042D14901DC66B7300D624D4 /* src */,
 				0471A84C1DB21FA000B2A064 /* AppDelegate.h */,
 				0471A84D1DB21FA000B2A064 /* AppDelegate.m */,
 				0471A84F1DB21FA000B2A064 /* ViewController.h */,
@@ -110,7 +150,6 @@
 				0471A8521DB21FA000B2A064 /* Main.storyboard */,
 				0471A8581DB21FA000B2A064 /* Assets.xcassets */,
 				0471A85A1DB21FA000B2A064 /* LaunchScreen.storyboard */,
-				0471A85D1DB21FA000B2A064 /* Info.plist */,
 				0471A8551DB21FA000B2A064 /* iOSPlayGround.xcdatamodeld */,
 				0471A8491DB21FA000B2A064 /* Supporting Files */,
 			);
@@ -120,6 +159,8 @@
 		0471A8491DB21FA000B2A064 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				042D14951DC67A7F00D624D4 /* GoogleService-Info.plist */,
+				0471A85D1DB21FA000B2A064 /* Info.plist */,
 				0471A84A1DB21FA000B2A064 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +184,29 @@
 			path = iOSPlayGroundUITests;
 			sourceTree = "<group>";
 		};
+		79DA00749277037C502D0E7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FAA723876E10F0723B75F5B /* Pods-iOSPlayGround.debug.xcconfig */,
+				EA9DCC4C3B9881BFCD71C953 /* Pods-iOSPlayGround.release.xcconfig */,
+				55D5A8E53B8B5006F70092CC /* Pods-iOSPlayGroundTests.debug.xcconfig */,
+				2D9AB2CA96EC77FB27ACD97F /* Pods-iOSPlayGroundTests.release.xcconfig */,
+				1595E755D5270993780C7CDB /* Pods-iOSPlayGroundUITests.debug.xcconfig */,
+				D86E3BEA18104C11A117AD8B /* Pods-iOSPlayGroundUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F69A490DF7F30858A356992E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09984EFA164DE0BA6CE45FEA /* Pods_iOSPlayGround.framework */,
+				25EFA7A0CCDB13C33A21EA19 /* Pods_iOSPlayGroundTests.framework */,
+				E41191907CE6260469363892 /* Pods_iOSPlayGroundUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0471A8761DB21FA000B2A064 /* Build configuration list for PBXNativeTarget "iOSPlayGround" */;
 			buildPhases = (
+				481109835BE9B8DE85523CBB /* [CP] Check Pods Manifest.lock */,
 				0471A8421DB21FA000B2A064 /* Sources */,
 				0471A8431DB21FA000B2A064 /* Frameworks */,
 				0471A8441DB21FA000B2A064 /* Resources */,
+				712C40A4025385A77CE6F7DC /* [CP] Embed Pods Frameworks */,
+				134C16E6BFDC74C654156193 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0471A8791DB21FA000B2A064 /* Build configuration list for PBXNativeTarget "iOSPlayGroundTests" */;
 			buildPhases = (
+				9EA240567045AA9126226248 /* [CP] Check Pods Manifest.lock */,
 				0471A85E1DB21FA000B2A064 /* Sources */,
 				0471A85F1DB21FA000B2A064 /* Frameworks */,
 				0471A8601DB21FA000B2A064 /* Resources */,
+				D37581A2F3DBF0330BA467B5 /* [CP] Embed Pods Frameworks */,
+				0E55DCDCD2F5BEB2A72758AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0471A87C1DB21FA000B2A064 /* Build configuration list for PBXNativeTarget "iOSPlayGroundUITests" */;
 			buildPhases = (
+				36EB5499F9089A528E0232A8 /* [CP] Check Pods Manifest.lock */,
 				0471A8691DB21FA000B2A064 /* Sources */,
 				0471A86A1DB21FA000B2A064 /* Frameworks */,
 				0471A86B1DB21FA000B2A064 /* Resources */,
+				23B552B1D02CADE37583DE6A /* [CP] Embed Pods Frameworks */,
+				39DAE80A6DCDB288FE8EE8F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0471A85C1DB21FA000B2A064 /* LaunchScreen.storyboard in Resources */,
+				042D14961DC67A7F00D624D4 /* GoogleService-Info.plist in Resources */,
 				0471A8591DB21FA000B2A064 /* Assets.xcassets in Resources */,
 				0471A8541DB21FA000B2A064 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +346,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E55DCDCD2F5BEB2A72758AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPlayGroundTests/Pods-iOSPlayGroundTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		134C16E6BFDC74C654156193 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPlayGround/Pods-iOSPlayGround-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23B552B1D02CADE37583DE6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPlayGroundUITests/Pods-iOSPlayGroundUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36EB5499F9089A528E0232A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39DAE80A6DCDB288FE8EE8F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPlayGroundUITests/Pods-iOSPlayGroundUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		481109835BE9B8DE85523CBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		712C40A4025385A77CE6F7DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPlayGround/Pods-iOSPlayGround-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EA240567045AA9126226248 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D37581A2F3DBF0330BA467B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPlayGroundTests/Pods-iOSPlayGroundTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0471A8421DB21FA000B2A064 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -281,6 +493,7 @@
 				0471A84E1DB21FA000B2A064 /* AppDelegate.m in Sources */,
 				0471A8571DB21FA000B2A064 /* iOSPlayGround.xcdatamodeld in Sources */,
 				0471A84B1DB21FA000B2A064 /* main.m in Sources */,
+				042D14931DC66B9B00D624D4 /* PGAccountManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +638,7 @@
 		};
 		0471A8771DB21FA000B2A064 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FAA723876E10F0723B75F5B /* Pods-iOSPlayGround.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YEGT88E7HE;
@@ -438,6 +652,7 @@
 		};
 		0471A8781DB21FA000B2A064 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA9DCC4C3B9881BFCD71C953 /* Pods-iOSPlayGround.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YEGT88E7HE;
@@ -451,6 +666,7 @@
 		};
 		0471A87A1DB21FA000B2A064 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D5A8E53B8B5006F70092CC /* Pods-iOSPlayGroundTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = iOSPlayGroundTests/Info.plist;
@@ -463,6 +679,7 @@
 		};
 		0471A87B1DB21FA000B2A064 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9AB2CA96EC77FB27ACD97F /* Pods-iOSPlayGroundTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = iOSPlayGroundTests/Info.plist;
@@ -475,6 +692,7 @@
 		};
 		0471A87D1DB21FA000B2A064 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1595E755D5270993780C7CDB /* Pods-iOSPlayGroundUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iOSPlayGroundUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -486,6 +704,7 @@
 		};
 		0471A87E1DB21FA000B2A064 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D86E3BEA18104C11A117AD8B /* Pods-iOSPlayGroundUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iOSPlayGroundUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -514,6 +733,7 @@
 				0471A8781DB21FA000B2A064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0471A8791DB21FA000B2A064 /* Build configuration list for PBXNativeTarget "iOSPlayGroundTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +742,7 @@
 				0471A87B1DB21FA000B2A064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0471A87C1DB21FA000B2A064 /* Build configuration list for PBXNativeTarget "iOSPlayGroundUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +751,7 @@
 				0471A87E1DB21FA000B2A064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

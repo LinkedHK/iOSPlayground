@@ -1,12 +1,11 @@
 //
 //  AppDelegate.m
 //  iOSPlayGround
-//
-//  Created by mac on 15/10/2016.
-//  Copyright © 2016 mac. All rights reserved.
-//
+
 
 #import "AppDelegate.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
+@import Firebase;
 
 @interface AppDelegate ()
 
@@ -17,6 +16,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [DDLog addLogger:[DDTTYLogger sharedInstance]]; // TTY = Xcode console
+    [DDLog addLogger:[DDASLLogger sharedInstance]]; // ASL = Apple System Logs
+    [FIRApp configure];
     return YES;
 }
 
