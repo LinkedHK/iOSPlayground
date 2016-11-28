@@ -11,6 +11,9 @@
 
 +(RACSignal*)signInAnon;
 
++(PGAccountManager*)defaultManager;
+
+
 
 
 @end

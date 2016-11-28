@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7E8FB612379F9200A74ACC7B59A565F5"
+               BlueprintIdentifier = "09BFEA5E1ABCF71B4B7DA9F16323F3E6"
                BuildableName = "Pods_iOSPlayGround.framework"
                BlueprintName = "Pods-iOSPlayGround"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E8FB612379F9200A74ACC7B59A565F5"
+            BlueprintIdentifier = "09BFEA5E1ABCF71B4B7DA9F16323F3E6"
             BuildableName = "Pods_iOSPlayGround.framework"
             BlueprintName = "Pods-iOSPlayGround"
             ReferencedContainer = "container:Pods.xcodeproj">

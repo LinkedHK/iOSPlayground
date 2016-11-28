@@ -9,9 +9,14 @@
 /* Begin PBXBuildFile section */
 		042D14931DC66B9B00D624D4 /* PGAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D14921DC66B9B00D624D4 /* PGAccountManager.m */; };
 		042D14961DC67A7F00D624D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042D14951DC67A7F00D624D4 /* GoogleService-Info.plist */; };
+		043A5BE51DEC81E200A800C1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A5BE41DEC81E200A800C1 /* LoginViewController.m */; };
+		043A5BE81DEC822A00A800C1 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A5BE71DEC822A00A800C1 /* SignupViewController.m */; };
+		043A5BEC1DEC885B00A800C1 /* Sys.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A5BEB1DEC885B00A800C1 /* Sys.m */; };
+		04573FB51DEC97370035CEB1 /* InitialVCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04573FB41DEC97370035CEB1 /* InitialVCTest.m */; };
+		045D50DC1DEC6E7E0069C465 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D50DB1DEC6E7E0069C465 /* LoginViewModel.m */; };
 		0471A84B1DB21FA000B2A064 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471A84A1DB21FA000B2A064 /* main.m */; };
 		0471A84E1DB21FA000B2A064 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471A84D1DB21FA000B2A064 /* AppDelegate.m */; };
-		0471A8511DB21FA000B2A064 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471A8501DB21FA000B2A064 /* ViewController.m */; };
+		0471A8511DB21FA000B2A064 /* UserInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471A8501DB21FA000B2A064 /* UserInitialViewController.m */; };
 		0471A8541DB21FA000B2A064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0471A8521DB21FA000B2A064 /* Main.storyboard */; };
 		0471A8571DB21FA000B2A064 /* iOSPlayGround.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0471A8551DB21FA000B2A064 /* iOSPlayGround.xcdatamodeld */; };
 		0471A8591DB21FA000B2A064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0471A8581DB21FA000B2A064 /* Assets.xcassets */; };
@@ -44,12 +49,22 @@
 		042D14911DC66B9B00D624D4 /* PGAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGAccountManager.h; sourceTree = "<group>"; };
 		042D14921DC66B9B00D624D4 /* PGAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGAccountManager.m; sourceTree = "<group>"; };
 		042D14951DC67A7F00D624D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		043A5BE31DEC81E200A800C1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		043A5BE41DEC81E200A800C1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		043A5BE61DEC822A00A800C1 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		043A5BE71DEC822A00A800C1 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		043A5BEA1DEC885B00A800C1 /* Sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sys.h; sourceTree = "<group>"; };
+		043A5BEB1DEC885B00A800C1 /* Sys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sys.m; sourceTree = "<group>"; };
+		04573FB41DEC97370035CEB1 /* InitialVCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialVCTest.m; sourceTree = "<group>"; };
+		04573FB61DEC979E0035CEB1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		045D50DA1DEC6E7E0069C465 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		045D50DB1DEC6E7E0069C465 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		0471A8461DB21FA000B2A064 /* iOSPlayGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPlayGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0471A84A1DB21FA000B2A064 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0471A84C1DB21FA000B2A064 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0471A84D1DB21FA000B2A064 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0471A84F1DB21FA000B2A064 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0471A8501DB21FA000B2A064 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0471A84F1DB21FA000B2A064 /* UserInitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInitialViewController.h; sourceTree = "<group>"; };
+		0471A8501DB21FA000B2A064 /* UserInitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInitialViewController.m; sourceTree = "<group>"; };
 		0471A8531DB21FA000B2A064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0471A8561DB21FA000B2A064 /* iOSPlayGround.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSPlayGround.xcdatamodel; sourceTree = "<group>"; };
 		0471A8581DB21FA000B2A064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,6 +118,11 @@
 		042D14901DC66B7300D624D4 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				0471A84C1DB21FA000B2A064 /* AppDelegate.h */,
+				0471A84D1DB21FA000B2A064 /* AppDelegate.m */,
+				043A5BE91DEC883F00A800C1 /* Environment */,
+				045D50D61DEC6C290069C465 /* ViewModel */,
+				043A5BE21DEC81B300A800C1 /* ViewControllers */,
 				042D14941DC66BA000D624D4 /* Account */,
 			);
 			name = src;
@@ -115,6 +135,37 @@
 				042D14921DC66B9B00D624D4 /* PGAccountManager.m */,
 			);
 			name = Account;
+			sourceTree = "<group>";
+		};
+		043A5BE21DEC81B300A800C1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				043A5BE31DEC81E200A800C1 /* LoginViewController.h */,
+				043A5BE41DEC81E200A800C1 /* LoginViewController.m */,
+				043A5BE61DEC822A00A800C1 /* SignupViewController.h */,
+				043A5BE71DEC822A00A800C1 /* SignupViewController.m */,
+				0471A84F1DB21FA000B2A064 /* UserInitialViewController.h */,
+				0471A8501DB21FA000B2A064 /* UserInitialViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		043A5BE91DEC883F00A800C1 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				043A5BEA1DEC885B00A800C1 /* Sys.h */,
+				043A5BEB1DEC885B00A800C1 /* Sys.m */,
+			);
+			name = Environment;
+			sourceTree = "<group>";
+		};
+		045D50D61DEC6C290069C465 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				045D50DA1DEC6E7E0069C465 /* LoginViewModel.h */,
+				045D50DB1DEC6E7E0069C465 /* LoginViewModel.m */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 		0471A83D1DB21FA000B2A064 = {
@@ -143,12 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				042D14901DC66B7300D624D4 /* src */,
-				0471A84C1DB21FA000B2A064 /* AppDelegate.h */,
-				0471A84D1DB21FA000B2A064 /* AppDelegate.m */,
-				0471A84F1DB21FA000B2A064 /* ViewController.h */,
-				0471A8501DB21FA000B2A064 /* ViewController.m */,
-				0471A8521DB21FA000B2A064 /* Main.storyboard */,
 				0471A8581DB21FA000B2A064 /* Assets.xcassets */,
+				0471A8521DB21FA000B2A064 /* Main.storyboard */,
 				0471A85A1DB21FA000B2A064 /* LaunchScreen.storyboard */,
 				0471A8551DB21FA000B2A064 /* iOSPlayGround.xcdatamodeld */,
 				0471A8491DB21FA000B2A064 /* Supporting Files */,
@@ -180,6 +227,7 @@
 			children = (
 				0471A8711DB21FA000B2A064 /* iOSPlayGroundUITests.m */,
 				0471A8731DB21FA000B2A064 /* Info.plist */,
+				04573FB41DEC97370035CEB1 /* InitialVCTest.m */,
 			);
 			path = iOSPlayGroundUITests;
 			sourceTree = "<group>";
@@ -200,6 +248,7 @@
 		F69A490DF7F30858A356992E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04573FB61DEC979E0035CEB1 /* XCTest.framework */,
 				09984EFA164DE0BA6CE45FEA /* Pods_iOSPlayGround.framework */,
 				25EFA7A0CCDB13C33A21EA19 /* Pods_iOSPlayGroundTests.framework */,
 				E41191907CE6260469363892 /* Pods_iOSPlayGroundUITests.framework */,
@@ -489,8 +538,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0471A8511DB21FA000B2A064 /* ViewController.m in Sources */,
+				043A5BE51DEC81E200A800C1 /* LoginViewController.m in Sources */,
+				043A5BEC1DEC885B00A800C1 /* Sys.m in Sources */,
+				0471A8511DB21FA000B2A064 /* UserInitialViewController.m in Sources */,
 				0471A84E1DB21FA000B2A064 /* AppDelegate.m in Sources */,
+				043A5BE81DEC822A00A800C1 /* SignupViewController.m in Sources */,
+				045D50DC1DEC6E7E0069C465 /* LoginViewModel.m in Sources */,
 				0471A8571DB21FA000B2A064 /* iOSPlayGround.xcdatamodeld in Sources */,
 				0471A84B1DB21FA000B2A064 /* main.m in Sources */,
 				042D14931DC66B9B00D624D4 /* PGAccountManager.m in Sources */,
@@ -510,6 +563,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0471A8721DB21FA000B2A064 /* iOSPlayGroundUITests.m in Sources */,
+				04573FB51DEC97370035CEB1 /* InitialVCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +620,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -613,6 +668,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

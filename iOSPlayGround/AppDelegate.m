@@ -7,6 +7,14 @@
 #import <CocoaLumberjack/CocoaLumberjack.h>
 @import Firebase;
 
+
+static NSString *const kStoryboardName                  = @"Storyboard";
+static NSString *const kInitialViewControllerIdentifier = @"UserInitialViewController";
+static NSString *const kURLSchemeSGNLKey                = @"sgnl";
+static NSString *const kURLHostVerifyPrefix             = @"verify";
+
+
+
 @interface AppDelegate ()
 
 @end
@@ -20,6 +28,8 @@
     [DDLog addLogger:[DDTTYLogger sharedInstance]]; // TTY = Xcode console
     [DDLog addLogger:[DDASLLogger sharedInstance]]; // ASL = Apple System Logs
     [FIRApp configure];
+
+    
     return YES;
 }
 

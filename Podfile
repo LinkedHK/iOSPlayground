@@ -13,6 +13,9 @@ target 'iOSPlayGround' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'CocoaLumberjack'
+  
+   pod 'Realm'
+  pod 'Realm/Headers'
 # Pods for iOSPlayGround
   target 'iOSPlayGroundTests' do
     inherit! :search_paths

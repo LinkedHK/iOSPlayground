@@ -45,6 +45,9 @@ PODS:
     - JSQSystemSoundPlayer (~> 2.0.1)
   - JSQSystemSoundPlayer (2.0.1)
   - ReactiveObjC (1.0.1)
+  - Realm (2.0.3):
+    - Realm/Headers (= 2.0.3)
+  - Realm/Headers (2.0.3)
 
 DEPENDENCIES:
   - CocoaLumberjack
@@ -52,6 +55,8 @@ DEPENDENCIES:
   - Firebase/Core
   - JSQMessagesViewController
   - ReactiveObjC
+  - Realm
+  - Realm/Headers
 
 SPEC CHECKSUMS:
   CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
@@ -67,7 +72,8 @@ SPEC CHECKSUMS:
   JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
   ReactiveObjC: 0e618037d7b883b4cebcc8da203e8ed9b69ca2d3
+  Realm: 5f008bfe3c8c47142eddfc30b8c1584cde22db24
 
-PODFILE CHECKSUM: 25dc7da773e449ee51e003aaa0f3551c2b10b13f
+PODFILE CHECKSUM: f2a40f0c08b46b48e42ee4652870fbb92a35186e
 
 COCOAPODS: 1.1.1
