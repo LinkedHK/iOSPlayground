@@ -6,6 +6,6 @@
 
 @implementation Sys
 +(void)MyLog: (id) message{
-    NSLog(message);
+    NSLog(@"%@",message);
 }
 @end

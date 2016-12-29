@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ClocksVC-->
+        <scene sceneID="Bpr-QP-IhF">
+            <objects>
+                <viewController storyboardIdentifier="ClocksVC" id="Uta-hN-IFP" customClass="ClocksVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BgD-yS-YOy"/>
+                        <viewControllerLayoutGuide type="bottom" id="pw3-Ez-iLd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H4Y-9W-nZM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circleIcon" translatesAutoresizingMaskIntoConstraints="NO" id="dNu-ss-Yws">
+                                <rect key="frame" x="67" y="224.5" width="240" height="218"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="218" id="apQ-dU-Gvi"/>
+                                    <constraint firstAttribute="width" constant="240" id="ayz-66-2XY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="dNu-ss-Yws" firstAttribute="centerX" secondItem="H4Y-9W-nZM" secondAttribute="centerX" id="9jM-ji-Zm5"/>
+                            <constraint firstItem="dNu-ss-Yws" firstAttribute="centerY" secondItem="H4Y-9W-nZM" secondAttribute="centerY" id="UIm-sZ-WSW"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="CvP-tv-C4Q" appends="YES" id="TiC-hc-1TK"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="circleIcon" destination="dNu-ss-Yws" id="BqX-eq-ULg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FIO-Xg-uZI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <rotationGestureRecognizer id="CvP-tv-C4Q"/>
+            </objects>
+            <point key="canvasLocation" x="-55.200000000000003" y="78.710644677661179"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="circleIcon" width="320" height="320"/>
+    </resources>
+</document>

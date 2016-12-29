@@ -6,6 +6,7 @@
 #import "LoginViewController.h"
 #import "LoginViewModel.h"
 #import "Sys.h"
+@import Firebase;
 
 @interface LoginViewController ()
 
@@ -21,24 +22,19 @@
     _loginViewModel =   [[LoginViewModel alloc] init];
     [self doLIstenLogin];
     [[_loginViewModel loginAnonCommand] execute:nil];
-
 }
 
 -(void)doLIstenLogin{
 
-    [[[_loginViewModel loginAnonCommand] executionSignals] subscribeNext:^(id  _Nullable x) {
-        
-      
-        [Sys MyLog:@"Do Login"];
-    } error:^(NSError * _Nullable error) {
-        
-        [Sys MyLog:@"Do Errors"];
+    [[[[_loginViewModel loginAnonCommand] executionSignals] flatten ] subscribeNext:^(id  _Nullable x) {
+        [Sys MyLog:x];
     }];
-      
+    [[[_loginViewModel loginAnonCommand] errors] subscribeNext:^(id  _Nullable x) {
+        [Sys MyLog:@"Authorisation Error!"];
+        
+    }];
     
 }
-
-
 
 
 - (void)didReceiveMemoryWarning {

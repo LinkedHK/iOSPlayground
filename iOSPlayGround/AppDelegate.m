@@ -8,11 +8,12 @@
 @import Firebase;
 
 
-static NSString *const kStoryboardName                  = @"Storyboard";
+static NSString *const kStoryboardName                  = @"MainStory";
+static NSString *const kClocksBoardName                  = @"ClocksBoard";
 static NSString *const kInitialViewControllerIdentifier = @"UserInitialViewController";
+//static NSString *const kInitialViewControllerIdentifier = @"UserInitialViewController";
 static NSString *const kURLSchemeSGNLKey                = @"sgnl";
 static NSString *const kURLHostVerifyPrefix             = @"verify";
-
 
 
 @interface AppDelegate ()
@@ -28,8 +29,12 @@ static NSString *const kURLHostVerifyPrefix             = @"verify";
     [DDLog addLogger:[DDTTYLogger sharedInstance]]; // TTY = Xcode console
     [DDLog addLogger:[DDASLLogger sharedInstance]]; // ASL = Apple System Logs
     [FIRApp configure];
-
     
+    UIStoryboard * storyBoard = [UIStoryboard storyboardWithName:kStoryboardName bundle:[NSBundle mainBundle]];
+   UIViewController * vc = [storyBoard instantiateViewControllerWithIdentifier:kInitialViewControllerIdentifier];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

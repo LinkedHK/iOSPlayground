@@ -8,6 +8,9 @@
 
 @import Firebase;
 
+
+
+
 @implementation PGAccountManager
 
 
@@ -42,6 +45,11 @@ static NSString * authname = @"swChat";
     return self;
 }
 
+
++(FIRUser*)hasCredentials{
+  return   [[FIRAuth auth] currentUser];
+
+}
 +(PGAccountManager*)defaultManager{
     
     static dispatch_once_t onceToken;

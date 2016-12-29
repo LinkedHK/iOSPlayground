@@ -35,16 +35,20 @@
     
     
     
-    XCUIElementQuery *q = [[XCUIElementQuery alloc] init];
-XCUIElement * el =     [_app.buttons.otherElements elementMatchingType:XCUIElementTypeButton identifier:@"LoginButton"];
+
+    XCUIElement * el  =     [_app.buttons objectForKeyedSubscript:NSLocalizedString(@"BTN_LOGIN", nil)];
+    
 
     [el tap];
 
 
     XCTestExpectation * exp = [self expectationWithDescription:@"Should Tap"];
     
-    sleep(10);
+    sleep(5);
     
+    [exp fulfill];
+    
+    [self waitForExpectationsWithTimeout:0 handler:NULL];
     
  
     

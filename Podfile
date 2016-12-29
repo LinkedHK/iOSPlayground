@@ -13,8 +13,9 @@ target 'iOSPlayGround' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'CocoaLumberjack'
+  pod 'AFNetworking', '~> 3.0'
   
-   pod 'Realm'
+  pod 'Realm'
   pod 'Realm/Headers'
 # Pods for iOSPlayGround
   target 'iOSPlayGroundTests' do

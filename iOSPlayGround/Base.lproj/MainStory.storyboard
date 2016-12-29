@@ -43,10 +43,47 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="TcI-yd-cT8" id="evG-az-8Ue"/>
+                        <segue destination="3aR-lw-7Bi" kind="show" id="jb0-B7-QRa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="Ply-Da-iHc">
+            <objects>
+                <viewController id="TYe-h1-VfD" customClass="ContactChatVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p6j-VF-4uH"/>
+                        <viewControllerLayoutGuide type="bottom" id="RTb-Ff-GHN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mI8-sX-ZD9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="awh-du-xMb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c4x-l0-pCl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1541" y="-433"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="4A1-Zb-3FH">
+            <objects>
+                <tabBarController id="3aR-lw-7Bi" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="S67-jk-uXu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="TYe-h1-VfD" kind="relationship" relationship="viewControllers" id="5pO-d7-ot1"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F8L-cc-hcC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="588" y="-104"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="t5g-gg-MB7">

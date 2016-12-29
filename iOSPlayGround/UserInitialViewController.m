@@ -8,6 +8,7 @@
 #import "PGAccountManager.h"
 #include <ReactiveObjC/ReactiveObjC.h>
 #include <Realm/Realm.h>
+
 @import Firebase;
 
 static NSString * loginSegue = @"ShowLoginSeg";
@@ -23,10 +24,17 @@ static NSString * loginSegue = @"ShowLoginSeg";
 @implementation UserInitialViewController
 
 - (void)viewDidLoad {
-    
     [super viewDidLoad];
+    [_loginBtn setTitle:NSLocalizedString(@"BTN_LOGIN", nil) forState:UIControlStateNormal];
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+       if ([PGAccountManager hasCredentials]) {
+        [self onUserAuthorized];
+    }else{
+        [self onUnknownUser];
+    }
     
-    [self onUnknownUser];
 }
 
 -(void)onUserAuthorized{
@@ -37,7 +45,8 @@ static NSString * loginSegue = @"ShowLoginSeg";
 -(void)onUnknownUser{
 
 
-
+    
+    
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {

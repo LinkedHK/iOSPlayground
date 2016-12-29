@@ -5,6 +5,7 @@
 
 #import <Foundation/Foundation.h>
 #include <ReactiveObjC/ReactiveObjC.h>
+#include <Firebase/Firebase.h>
 @interface PGAccountManager : NSObject
 
 
@@ -13,7 +14,7 @@
 
 +(PGAccountManager*)defaultManager;
 
-
++(FIRUser*)hasCredentials;
 
 
 @end
